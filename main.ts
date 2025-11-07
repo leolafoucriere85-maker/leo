@@ -1,22 +1,9 @@
-input.onButtonPressed(Button.B, function () {
-    basic.showNumber(2 * 1)
-    basic.clearScreen()
-    basic.showNumber(2 * 2)
-    basic.clearScreen()
-    basic.showNumber(2 * 3)
-    basic.clearScreen()
-    basic.showNumber(2 * 4)
-    basic.clearScreen()
-    basic.showNumber(2 * 5)
-    basic.clearScreen()
-    basic.showNumber(2 * 6)
-    basic.clearScreen()
-    basic.showNumber(2 * 7)
-    basic.clearScreen()
-    basic.showNumber(2 * 8)
-    basic.clearScreen()
-    basic.showNumber(2 * 9)
-    basic.clearScreen()
-    basic.showNumber(2 * 10)
-    basic.clearScreen()
-})
+function LEO (image: Image, sprite: game.LedSprite, array: any[], num: number, Booléen: boolean, texte: string) {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+}
